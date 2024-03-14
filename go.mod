@@ -1,10 +1,5 @@
-module tcptunnel
+module imohe/tcptunnel
 
-go 1.19
+go 1.21.0
 
-require (
-	github.com/sirupsen/logrus v1.9.0
-	golang.org/x/net v0.0.0-20221002022538-bcab6841153b
-)
-
-require golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10 // indirect
+require golang.org/x/net v0.14.0
